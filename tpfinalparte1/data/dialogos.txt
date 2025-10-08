@@ -1,0 +1,16 @@
+
+-: Aladino, un joven pobre y soñador, recorre las calles de la ciudad buscando una oportunidad para cambiar su destino.
+
+-Un misterioso hechicero se le acerca: ‘Si me ayudas, te daré riquezas inimaginables.
+
+-Guiado por el extraño, Aladino llega a una cueva llena de tesoros brillantes.
+
+-“En el centro de la cueva, Aladino encuentra una lámpara vieja. El hechicero le grita: ‘¡Dámela!’”
+¿Que elije hacer Aladin?
+
+-Si eligió A (entregarla): El hechicero huye con la lámpara. Aladino solo encuentra un anillo mágico menor.
+
+-Si eligió B (no entregarla):  El hechisero lo encierra  asi que Atrapado y desesperado, Aladino frota la lámpara y aparece un genio poderoso.
+
+
+-
