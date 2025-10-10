@@ -1,7 +1,4 @@
-// para verificar si las coordenadas actuales del moouse están dentro del área de un botón.
-  //@param {object} boton - Objeto con propiedades x, y, w, h del botón.
-  //@returns {boolean} True si el mouse está sobre el botón, False si no está
- 
+
 function mouseEnBoton(boton) {
   return mouseX > boton.x && 
          mouseX < boton.x + boton.w && 
@@ -44,6 +41,29 @@ function dibujarBoton(boton) {
     
 }
 
+// FUNCIONES AUXILIARES PARA DETECTAR CLIC EN DECISIONES
+function mouseEnBotonDecision1() {
+    let w = 250;
+    let h = 60;
+    let margen = 20;
+    let y = height - h - margen; 
+    let x1 = margen; 
+    
+    // Creamos el objeto botón localmente, solo para usarlo en mouseEnBoton
+    let boton1 = { x: x1, y: y, w: w, h: h };
+    return mouseEnBoton(boton1);
+}
+
+function mouseEnBotonDecision2() {
+    let w = 250;
+    let h = 60;
+    let margen = 20;
+    let y = height - h - margen; 
+    let x2 = width - w - margen; 
+    
+    // Creamos el objeto botón localmente, solo para usarlo en mouseEnBoton
+    let boton2 = { x: x2, y: y, w: w, h: h };
+    return mouseEnBoton(boton2);
+}
 
 
-// aca no hay que agregar nada creo
